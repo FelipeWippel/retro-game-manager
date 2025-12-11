@@ -1,0 +1,15 @@
+{
+  "name": "retro-game-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API para gerenciamento de coleção de jogos retro",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^9.2.2"
+  }
+}
